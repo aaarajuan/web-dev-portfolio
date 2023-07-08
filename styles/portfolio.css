@@ -23,6 +23,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title{
@@ -44,4 +45,24 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+nav a:hover{
+    color: #ff6a00;
+}
+
+/* header styles */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+
+.banner .profile-picture{
+    width: 500px;
 }
