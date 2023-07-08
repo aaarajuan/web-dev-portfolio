@@ -79,9 +79,9 @@ nav a:hover {
 /* header styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -89,11 +89,6 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("../images/developer.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 70px;
-    margin-left: 40px;
 }
 
 .banner-content {
