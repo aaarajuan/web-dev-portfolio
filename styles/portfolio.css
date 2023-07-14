@@ -246,3 +246,16 @@ footer {
     font-size: 18px;
     font-weight: 700;
 }
+
+/* responside styles */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px){
+    .what-i-do-description{
+        padding: 0px;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+}
