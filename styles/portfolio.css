@@ -238,6 +238,8 @@ footer {
 .copyright{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .web-domain a{
@@ -252,19 +254,24 @@ footer {
     display: none;
 }
 @media screen and (max-width:576px){
-    .skills-container, .resume-container{
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .about, .skills-container, .resume-container, .footer{
         flex-direction: column;
     }
-    .what-i-do-description{
+    #what-i-do-description{
         padding: 20px;
     }
-    .footer{
+    footer{
         padding: 10px;
     }
     .footer-column{
         width: 100%;
     }
     .contact input[type="text"], .contact input[type="email"], textarea{
-        width: 80%;
+        width: 100%;
     }
 }
