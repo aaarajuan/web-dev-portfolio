@@ -252,10 +252,19 @@ footer {
     display: none;
 }
 @media screen and (max-width:576px){
-    .what-i-do-description{
-        padding: 0px;
-    }
-    .skills-container{
+    .skills-container, .resume-container{
         flex-direction: column;
+    }
+    .what-i-do-description{
+        padding: 20px;
+    }
+    .footer{
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 80%;
     }
 }
